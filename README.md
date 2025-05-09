@@ -3,6 +3,7 @@
 A voice-assisted tool that uses computer vision to help visually impaired individuals interact with their surroundings through sound-based feedback.
 
 ## 📁 Project Structure
+![image](https://github.com/user-attachments/assets/9111cac9-d771-426e-a752-b54ac359a1bb)
 
 ```
 Sonic-Vision-master/
@@ -50,8 +51,40 @@ pip install -r requirements.txt
 ```bash
 python controller.py
 ```
+![Screenshot 2025-05-09 114650](https://github.com/user-attachments/assets/06b211b8-3e8d-4a06-826f-64ee11aeddeb)
 
 ## 📝 Notes
 
 - Python 3.7 or above is required.
 - Ensure internet access for downloading models (if required by OCR or YOLO).
+🎬 Demo Video
+
+
+📄 Sample Files
+📥 User Guide (PDF)
+
+📹 Download Demo Video
+
+Note: If you're viewing this on GitHub, media files must be uploaded via the web interface or Git LFS for large files.
+
+🤖 Features
+![image](https://github.com/user-attachments/assets/e529a1a0-f0d1-4e25-b997-fb895d3f7fc6)
+
+OCR for reading printed text
+
+Object pointing and detection
+![image](https://github.com/user-attachments/assets/884f168b-7492-4901-90fd-ae944cf3fbdb)
+
+
+Voice interaction with the user
+
+Python-based modular structure
+
+Real-time assistance via camera
+
+👨‍💻 Author
+Punit Sharma
+YouTube Channel
+Project Demo: https://www.youtube.com/watch?v=kfVsRI44wlw
+
+
