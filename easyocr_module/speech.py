@@ -1,5 +1,5 @@
 import pyttsx3
-
+ 
 def speak_text(text, lang="en"):
     # Initialize the TTS engine
     engine = pyttsx3.init()
