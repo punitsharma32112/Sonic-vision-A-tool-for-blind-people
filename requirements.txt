@@ -1,0 +1,19 @@
+# pointObject
+ultralytics
+mediapipe
+opencv-python
+numpy
+pyttsx3
+tensorflow
+
+# easyocr
+opencv-python
+easyocr
+pyttsx3
+gtts
+deep-translator
+playsound
+
+# voiceChatbot
+SpeechRecognition
+pyaudio
