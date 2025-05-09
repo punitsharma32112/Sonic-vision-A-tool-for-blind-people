@@ -1,16 +1,57 @@
-![Screenshot 2025-05-09 114650](https://github.com/user-attachments/assets/76b96a8b-1a84-4dbe-b2a4-aab2e6b46825)
-🔊 Sonic Vision – A Smart Tool for Blind People
-Sonic Vision is an assistive AI-based Python project that combines computer vision, object detection, OCR, and voice feedback to help visually impaired individuals perceive their surroundings in real time. The system detects objects, reads text, and converts the information into audio using speech synthesis.
+# Sonic Vision – A Tool for Blind People
 
-✨ Features
-🧠 Object Detection using YOLO (ultralytics)
+A voice-assisted tool that uses computer vision to help visually impaired individuals interact with their surroundings through sound-based feedback.
 
-✋ Hand and Pose Tracking using MediaPipe
+## 📁 Project Structure
 
-👓 Text Recognition (OCR) with EasyOCR
+```
+Sonic-Vision-master/
+├── chatbot/                # Voice chatbot scripts
+├── easyocr_module/        # OCR functionality using EasyOCR
+├── point_object_module/   # Object pointing & detection using YOLO & MediaPipe
+├── controller.py          # Main control script
+├── requirements.txt       # Python dependencies
+└── README.md              # Project documentation
+```
 
-🗣️ Voice Chatbot interface using SpeechRecognition, gTTS, and pyttsx3
+## ⚙️ Installation
 
-🔊 Real-time audio feedback for detected objects and text
+### 1. Clone the repository
 
-🎯 Works with camera input to assist in indoor/outdoor environments
+```bash
+git clone https://github.com/your-username/Sonic-vision-A-tool-for-blind-people.git
+cd Sonic-vision-A-tool-for-blind-people
+```
+
+### 2. Create and activate a virtual environment
+
+#### For Linux/Mac:
+
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+#### For Windows:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## 🚀 Run the Project
+
+```bash
+python controller.py
+```
+
+## 📝 Notes
+
+- Python 3.7 or above is required.
+- Ensure internet access for downloading models (if required by OCR or YOLO).
