@@ -8,7 +8,7 @@ A voice-assisted tool that uses computer vision to help visually impaired indivi
 ```
 Sonic-Vision-master/
 ├── chatbot/                # Voice chatbot scripts
-├── easyocr_module/        # OCR functionality using EasyOCR
+├── easyocr_module/        # OCR functionality using EasyOCR 
 ├── point_object_module/   # Object pointing & detection using YOLO & MediaPipe
 ├── controller.py          # Main control script
 ├── requirements.txt       # Python dependencies
